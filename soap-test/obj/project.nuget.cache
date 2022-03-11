@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8rvrcbsjrNNKvBG+N4VNpmMgF/P1TVIiP5GbbEGhRmZ+FGgHDBnSKDn7MFYt0UombU4oF1sb6n+ZXAOyvMGkRQ==",
+  "dgSpecHash": "BamgKi9v978DHncXAGZSQvwYg63CPJKfcfqYO/kzikZP4iolrd2zK8Om4A5aESEwzluRiAUpUgmO5LFvB4UOUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JoaquinGA\\Desktop\\78927\\soap-test\\soap-test.csproj",
+  "projectFilePath": "C:\\Users\\JoaquinGA\\Desktop\\6 Semestre\\TIS\\78927\\soap-test\\soap-test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoaquinGA\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\JoaquinGA\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
