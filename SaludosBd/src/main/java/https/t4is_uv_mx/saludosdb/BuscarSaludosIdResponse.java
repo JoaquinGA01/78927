@@ -51,11 +51,11 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "saludos"
 })
-@XmlRootElement(name = "BuscarSaludosResponse")
-public class BuscarSaludosResponse {
+@XmlRootElement(name = "BuscarSaludosIdResponse")
+public class BuscarSaludosIdResponse {
 
     @XmlElement(required = true)
-    protected List<BuscarSaludosResponse.Saludos> saludos;
+    protected List<BuscarSaludosIdResponse.Saludos> saludos;
 
     /**
      * Gets the value of the saludos property.
@@ -75,13 +75,13 @@ public class BuscarSaludosResponse {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link BuscarSaludosResponse.Saludos }
+     * {@link BuscarSaludosIdResponse.Saludos }
      * 
      * 
      */
-    public List<BuscarSaludosResponse.Saludos> getSaludos() {
+    public List<BuscarSaludosIdResponse.Saludos> getSaludos() {
         if (saludos == null) {
-            saludos = new ArrayList<BuscarSaludosResponse.Saludos>();
+            saludos = new ArrayList<BuscarSaludosIdResponse.Saludos>();
         }
         return this.saludos;
     }

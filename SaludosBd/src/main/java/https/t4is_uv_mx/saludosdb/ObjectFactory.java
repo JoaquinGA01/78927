@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
 // Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2022.03.29 a las 11:38:20 AM CST 
+// Generado el: 2022.03.29 a las 02:30:49 PM CST 
 //
 
 
@@ -49,6 +49,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link BuscarSaludosIdResponse }
+     * 
+     */
+    public BuscarSaludosIdResponse createBuscarSaludosIdResponse() {
+        return new BuscarSaludosIdResponse();
+    }
+
+    /**
      * Create an instance of {@link SaludarRequest }
      * 
      */
@@ -70,6 +78,22 @@ public class ObjectFactory {
      */
     public BuscarSaludosResponse.Saludos createBuscarSaludosResponseSaludos() {
         return new BuscarSaludosResponse.Saludos();
+    }
+
+    /**
+     * Create an instance of {@link BuscarSaludosIdRequest }
+     * 
+     */
+    public BuscarSaludosIdRequest createBuscarSaludosIdRequest() {
+        return new BuscarSaludosIdRequest();
+    }
+
+    /**
+     * Create an instance of {@link BuscarSaludosIdResponse.Saludos }
+     * 
+     */
+    public BuscarSaludosIdResponse.Saludos createBuscarSaludosIdResponseSaludos() {
+        return new BuscarSaludosIdResponse.Saludos();
     }
 
     /**

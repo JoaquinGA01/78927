@@ -24,7 +24,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="respuesta" type="{http://www.w3.org/2001/XMLSchema}boolean"/&gt;
+ *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}int"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -35,27 +35,27 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "respuesta"
+    "id"
 })
-@XmlRootElement(name = "BorrarSaludoResponse")
-public class BorrarSaludoResponse {
+@XmlRootElement(name = "BuscarSaludosIdRequest")
+public class BuscarSaludosIdRequest {
 
-    protected boolean respuesta;
+    protected int id;
 
     /**
-     * Obtiene el valor de la propiedad respuesta.
+     * Obtiene el valor de la propiedad id.
      * 
      */
-    public boolean isRespuesta() {
-        return respuesta;
+    public int getId() {
+        return id;
     }
 
     /**
-     * Define el valor de la propiedad respuesta.
+     * Define el valor de la propiedad id.
      * 
      */
-    public void setRespuesta(boolean value) {
-        this.respuesta = value;
+    public void setId(int value) {
+        this.id = value;
     }
 
 }
